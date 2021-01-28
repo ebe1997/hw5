@@ -1,105 +1,87 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
-## Your Task
-
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use a library like [Moment.js](https://momentjs.com/) to work with dates and times. `Moment.js` has historically been the most popular date/time library but is no longer supported by its developers. However, you can still use it for this project, or you can look into one of the following alternatives:
-
-  * [Luxon](https://moment.github.io/luxon/)
-
-  * [Day.js](https://day.js.org/)
-
-  * [date-fns](https://date-fns.org/)
-
-  * [js-Joda](https://js-joda.github.io/js-joda/)
-
-Whichever library you choose, be sure to read the documentation carefully!
+Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
 
-## User Story
+## Directions
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
 
+* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
 
-## Acceptance Criteria
+* Using Bootstrap, develop your portfolio site with the following items:
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+   * A navbar
 
+   * A responsive layout
+   
 
-## Mock-Up
+   * Responsive images
 
-The following animation demonstrates the application functionality:
+* The Bootstrap portfolio should minimize the use of media queries.
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
 
+### Hints
 
-## Grading Requirements
+* Use Bootstrap's grid system (containers, rows, and columns).
 
-This homework is graded based on the following criteria: 
+* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
 
-### Technical Acceptance Criteria: 40%
+* Use an HTML validation service to ensure that each page has valid HTML.
 
-* Satisfies all of the above acceptance criteria plus the following:
+### Minimum Requirements
 
-  * Uses the Moment.js library to work with date and time
+* Functional, deployed application
 
-### Deployment: 32%
+* GitHub repository with README describing the project
 
-* Application deployed at live URL
+* Navbar must be consistent on each page.
 
-* Application loads with no errors
+* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
 
-* Application GitHub URL submitted
+* All links must work.
 
-* GitHub repo contains application code
+* Must use semantic html.
 
-### Application Quality: 15%
+* Each page must have valid and correct HTML. (use a validation service)
 
-* Application user experience is intuitive and easy to navigate
+* Must contain your personalized information. (bio, name, images, links to social media, etc.)
 
-* Application user interface style is clean and polished
+* Must properly utilize Bootstrap components and grid system.
 
-* Application resembles the mock-up functionality provided in the homework instructions
+### Bonus
 
-### Repository Quality: 13%
+* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
 
-* Repository has a unique name
+## Commit Early and Often
 
-* Repository follows best practices for file structure and naming conventions
+One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
 
-* Repository contains multiple descriptive commit messages
+* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
 
-* Repository contains quality README file with description, screenshot, and link to deployed application
+Follow these guidelines for committing:
 
+* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
 
-## Review
+* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
 
-You are required to submit BOTH of the following for review:
+* Don't commit half-done work, for the sake of your collaborators (and your future self!).
 
-* The URL of the functional, deployed application.
+* Test your application before you commit to ensure functionality at every step in the development process.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+We would like you to have well over 200 commits by graduation, so commit early and often!
+
+## Submission on BCS
+
+You are required to submit the following:
+
+* The URLs of the deployed applications
+
+* The URLs of the GitHub repositories
 
 - - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
